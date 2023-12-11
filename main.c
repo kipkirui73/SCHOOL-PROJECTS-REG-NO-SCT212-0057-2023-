@@ -1,12 +1,8 @@
-
-
-int main (void)
+#include <stdio.h>
+int a[] = {12 ,9,14,5,1};
+int i;
+for(i =0 ;i < 5; i++);
 {
-int a , b , c ;
-a = 345 ;
-b = 8 ;
-c = a + b ;
-printf ("%d + %d = %d \n " , a , b , c ) ;
-return 0 ;
+    a[i] =0;
+    printf("the valu are%d\n",i);
 }
-
